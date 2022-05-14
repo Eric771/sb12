@@ -2812,7 +2812,7 @@ def clBot(op):
                         purl = msg.contentMetadata["postEndUrl"].split('userMid=')[1].split('&postId=')
                         adw = cl.likePost(purl[0], purl[1], random.choice([1001,1002,1003,1004,1005]))
                         adws = cl.createComment(purl[0], purl[1], settings["commentPost"])
-                     #   sendTextTemplate(to, "")
+                        cl.sendMessage(to, "")
                 if msg.contentType == 0 and sender not in clMID and msg.toType == 2:
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
@@ -2828,7 +2828,7 @@ def clBot(op):
                                                         "contents": {
                   "styles": {
                     "body": {
-                      "backgroundColor": "#0000CD"
+                      "backgroundColor": "#000000"
                     }
                   },
                   "type": "bubble",
