@@ -22,7 +22,7 @@ import json, requests, LineService
 from thrift.transport import THttpClient
 
 botStart = time.time()
-cl = LINE("ENaoOR7jsGlIhxfxBUUb.0PzLwS72Fl1EGGJMnIN3IW.7k4OIV4TbYJWJy52Z2RVtPMaOp+J47jcosfbrQ+QDUE=")
+#cl = LINE("ENaoOR7jsGlIhxfxBUUb.0PzLwS72Fl1EGGJMnIN3IW.7k4OIV4TbYJWJy52Z2RVtPMaOp+J47jcosfbrQ+QDUE=")
 #cl = LINE("YOUR TOKEN")
 #cl = LINE("Email","Password")
 
@@ -65,9 +65,9 @@ settings = {
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
-    "commentPost": "DPK BOT HADIR BUAT LIKE STATUS KAMU \n Add my owner ID http://line.me/ti/p/~@cob0606n",
+    "commentPost": "",
     "detectMention": True,
-    "autoResponMessage": "Ngapain tag gua woy",
+    "autoResponMessage": "",
     "responsticker": False,
     "changeGroupPicture":[],
     "notifikasi": False,
@@ -402,7 +402,7 @@ def sendTextTemplateMaster(to, text):
   },
   "styles": {
     "body": {
-      "backgroundColor": "#7D00C1"
+      "backgroundColor": "#000000"
     },
     "footer": {
       "backgroundColor": "#03f5f1"
@@ -434,7 +434,7 @@ def sendTextTemplateMaster(to, text):
               "action": {
                   "type": "uri",
                   "label": "DPK",
-                  "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                  "uri": "https://line.me/R/ti/p/~j71.a"
               }
           }, {
               "flex": 3,
@@ -446,7 +446,7 @@ def sendTextTemplateMaster(to, text):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                  "uri": "https://line.me/R/ti/p/~j71.a"
               }
           }]
       }]
@@ -469,7 +469,7 @@ def sendStickerTemplate(to, text):
                                   "size": "full", 
                                   "action": {
                                       "type": "uri",
-                                      "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                                      "uri": "https://line.me/R/ti/p/~j71.a"
            }                                                
  }
 ]
@@ -519,13 +519,13 @@ def clBot(op):
     {
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -631,7 +631,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc",
+          "uri": "https://line.me/R/ti/p/~j71.a",
         },
         "align": "center"
       },
@@ -648,7 +648,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+          "uri": "https://line.me/R/ti/p/~j71.a"
         },
         "align": "center"
       },
@@ -658,13 +658,13 @@ def clBot(op):
     {
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -770,7 +770,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc",
+          "uri": "https://line.me/R/ti/p/~j71.a",
         },
         "align": "center"
       },
@@ -787,7 +787,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+          "uri": "https://line.me/R/ti/p/~j71.a"
         },
         "align": "center"
       },
@@ -797,13 +797,13 @@ def clBot(op):
     {
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -909,7 +909,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc",
+          "uri": "https://line.me/R/ti/p/~j71.a",
         },
         "align": "center"
       },
@@ -926,7 +926,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+          "uri": "https://line.me/R/ti/p/~j71.a"
         },
         "align": "center"
       },
@@ -936,13 +936,13 @@ def clBot(op):
     {
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -1048,7 +1048,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc",
+          "uri": "https://line.me/R/ti/p/~j71.a",
         },
         "align": "center"
       },
@@ -1065,7 +1065,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+          "uri": "https://line.me/R/ti/p/~j71.a"
         },
         "align": "center"
       },
@@ -1075,13 +1075,13 @@ def clBot(op):
     {
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -1187,7 +1187,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc",
+          "uri": "https://line.me/R/ti/p/~j71.a",
         },
         "align": "center"
       },
@@ -1204,7 +1204,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+          "uri": "https://line.me/R/ti/p/~j71.a"
         },
         "align": "center"
       },
@@ -1214,13 +1214,13 @@ def clBot(op):
     {
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -1326,7 +1326,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc",
+          "uri": "https://line.me/R/ti/p/~j71.a",
         },
         "align": "center"
       },
@@ -1343,7 +1343,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+          "uri": "https://line.me/R/ti/p/~j71.a"
         },
         "align": "center"
       },
@@ -1429,7 +1429,7 @@ def clBot(op):
                                                         "size": "full", 
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                                                            "uri": "https://line.me/R/ti/p/~j71.a"
                                  }                                                
                        }
                       ]
@@ -1793,13 +1793,13 @@ def clBot(op):
       },
       "styles": {
         "body": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "footer": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         },
         "header": {
-          "backgroundColor": "#7D00C1"
+          "backgroundColor": "#000000"
         }
       },
       "type": "bubble",
@@ -1914,7 +1914,7 @@ def clBot(op):
           {
             "text": "YOUTUBE\nVIDEOS\nLOADING...\n\nPLAY",
             "size": "sm",
-            "color": "#7D00C1",
+            "color": "#000000",
             "wrap": True,
             "weight": "bold",
             "type": "text"
@@ -1934,7 +1934,7 @@ def clBot(op):
             "text": "JUDUL\n " + vid.title + " ?",
             "size": "xs",
             "align": "center",
-            "color": "#7D00C1",
+            "color": "#000000",
             "wrap": True,
             "weight": "bold",
             "type": "text"
@@ -2156,7 +2156,7 @@ def clBot(op):
                                         "imageUrl": "https://os.line.naver.jp/os/p/{}".format(ids.mid),
                                         "action": {
                                           "type": "uri",
-                                          "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                                          "uri": "https://line.me/R/ti/p/~j71.a"
                                           }
                                         }
                                       )
@@ -2187,7 +2187,7 @@ def clBot(op):
                                                                 {
                                                                     "type": "uri",
                                                                     "label": "CREATOR",
-                                                                    "uri": "https://line.me/R/ti/p/%40642xtzwc",
+                                                                    "uri": "https://line.me/R/ti/p/~j71.a",
                                                                 }
                                                             ]
                                                         }
@@ -2318,7 +2318,7 @@ def clBot(op):
                                                     "backgroundColor": "#0000FF"
                                                 },
                                                 "body": {
-                                                   "backgroundColor": "#7D00C1",
+                                                   "backgroundColor": "#000000",
                                                    "separator": True,
                                                    "separatorColor": "#FF0000"
                                                 },
@@ -2875,14 +2875,14 @@ def clBot(op):
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
              data = {
                                 "type": "flex",
-                                "altText": "DPK",
+                                "altText": "Eric",
                                 "contents": {
   "styles": {
     "body": {
-      "backgroundColor": "#7D00C1"
+      "backgroundColor": "#000000"
     },
     "footer": {
-      "backgroundColor": "#7D00C1"
+      "backgroundColor": "#000000"
     }
   },
   "type": "bubble",
@@ -2891,16 +2891,16 @@ def clBot(op):
       {
         "contents": [
           {
-            "text":" Selamat datang  dan selamat bergabung\nBUDAYAKAN CEK NOT 🙏\nSemoga betah 🙏 🙏 ".format(cl.getContact(op.param2).displayName),
+            "text":" welcome 𝐂𝐑𝐎𝐖𝐍 | العُظماء\nEnjoy your time\n".format(cl.getContact(op.param2).displayName),
             "size": "sm",
-            "color": "#00FF00",
+            "color": "#bcbcbc",
             "wrap": True,
             "type": "text",
             "align": "center"
           },
           {
             "type": "separator",
-            "color": "#FF0000"
+            "color": "#ffffff"
           },
           {
             "url": "https://obs.line-scdn.net/{}".format(cl.getContact(op.param2).pictureStatus),
@@ -2926,12 +2926,12 @@ def clBot(op):
           "contents": [{
               "type": "button",
               "style": "secondary",
-              "color": "#00FF00",
+              "color": "#f3f6f4",
               "height": "sm",
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                  "uri": "https://line.me/R/ti/p/~j71.a"
               }
           }]
       }]
@@ -2956,10 +2956,10 @@ def clBot(op):
                                 "contents": {
   "styles": {
     "body": {
-      "backgroundColor": "#7D00C1"
+      "backgroundColor": "#000000"
     },
     "footer": {
-      "backgroundColor": "#7D00C1"
+      "backgroundColor": "#000000"
     }
   },
   "type": "bubble",
@@ -3008,7 +3008,7 @@ def clBot(op):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "https://line.me/R/ti/p/%40642xtzwc"
+                  "uri": "https://line.me/R/ti/p/~j71.a"
               }
           }]
       }]
